@@ -1,0 +1,233 @@
+.translator-box {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.translator-entry {
+    caret-color: rgb(255, 0, 0);
+    caret-size: 2px;
+    selected-color: black;
+    padding: 3px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 0px;
+}
+
+.translator-source-text-box {
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.translator-target-text-box {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.translator-statusbar-box {
+    padding: 3px;
+    font-size: 18px;
+    color: rgba(150, 150, 150, 1);
+    /*border: 1px solid rgba(64, 64, 64, 0.5);*/
+}
+
+.translator-buttons-bar-box {
+    padding: 3px;
+}
+
+.translator-buttons-bar-icon {
+    icon-size: 14px;
+}
+
+.translator-top-bar-box {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.tranlator-top-bar-button {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.tranlator-top-bar-button-reactive {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.tranlator-top-bar-button-reactive:hover {
+    background-color: rgba(64, 64, 64, 0.5);
+}
+
+.tranlator-top-bar-button-reactive:active {
+    background-color: rgba(64, 64, 64, 0.9);
+}
+
+.tranlator-top-bar-go-button {
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background-color: rgba(64, 64, 200, 1);
+}
+
+.tranlator-top-bar-go-button:hover {
+    background-color: rgba(64, 64, 255, 1);
+}
+
+.tranlator-top-bar-go-button:active {
+    background-color: rgba(0, 0, 255, 1);
+}
+
+.translator-dialog-menu-button {
+    padding-right: 4px;
+    padding-top: 2px;
+    color: rgba(64, 64, 64, 1);
+}
+
+.translator-dialog-menu-button:hover {
+    color: rgba(255, 64, 64, 1);
+}
+
+.translator-dialog-menu-button:active {
+    color: rgba(255, 0, 0, 1);
+}
+
+.translator-dialog-menu-toggle-button {
+    padding-right: 4px;
+    padding-top: 2px;
+    color: rgba(64, 64, 64, 1);
+}
+
+.translator-dialog-menu-toggle-button:hover {
+    color: rgba(64, 255, 64, 1);
+}
+
+.translator-dialog-menu-toggle-button:active {
+    color: rgba(0, 255, 0, 1);
+}
+
+.translator-language-chooser {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+}
+
+.translator-language-chooser-box {
+    border: 1px solid rgba(64, 64, 64, 0.5);
+}
+
+.translator-language-chooser-title {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.translator-language-chooser-entry {
+    size: 10px;
+    color: black;
+    padding: 3px;
+    width: 150px;
+    background-color: rgba(64, 64, 64, 0.5);
+    caret-color: rgb(0, 0, 0);
+    caret-size: 2px;
+    selected-color: white;
+}
+
+.translator-language-chooser-button {
+    padding: 3px;
+    font-size: 18px;
+    color: black;
+}
+
+.translator-language-chooser-button:hover {
+    background-color: rgba(64, 64, 64, 0.3);
+}
+
+.translator-language-chooser-button:active {
+    font-weight: bold;
+    font-size: 16px;
+    background-color: rgba(64, 64, 64, 0.3);
+}
+
+.translator-chars-counter-box {
+    font-size: 13px;
+    padding: 5px;
+}
+
+.translator-chars-counter-text {
+    /* nothing */
+}
+
+.translator-help-box {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.translator-help-text {
+    font-size: 15px;
+    padding: 15px;
+    color: black;
+}
+
+.translator-translators-popup-escape-label {
+    padding-left: 10px;
+    padding-top: 5px;
+    size: 5px;
+    font-style: italic;
+    color: grey;
+}
+
+.translator-langs-buttons-label {
+    padding-left: 10px;
+    padding-bottom: 5px;
+    font-style: italic;
+    color: rgb(160, 160, 160);
+    font-size: 15px;
+}
+
+.translator-langs-buttons-box {
+    padding-left: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.translator-lang-button-box {
+    padding-right: 5px;
+}
+
+.translator-lang-button {
+    padding-left: 2px;
+    padding-right: 2px;
+    font-size: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.translator-lang-button:hover {
+    padding-left: 2px;
+    padding-right: 2px;
+    font-size: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background-color: rgba(64, 64, 255, 1);
+}
+
+.translator-lang-button:active {
+    padding-left: 2px;
+    padding-right: 2px;
+    font-size: 12px;
+    font-weight: bold;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background-color: rgba(64, 64, 200, 1);
+}
+
+.listen-button {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    color: white;
+}
+
+.listen-button:hover {
+    color: #3465a4;
+}
+
+.listen-button:active {
+    color: #0D4CA3
+}

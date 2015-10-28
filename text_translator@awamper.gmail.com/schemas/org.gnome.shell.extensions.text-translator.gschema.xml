@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="gnome-shell-extensions">
+
+  <schema path="/org/gnome/shell/extensions/text-translator/" id="org.gnome.shell.extensions.text-translator">
+
+    <key type="as" name="open-translator-dialog-keybinding">
+        <default><![CDATA[['<Super>T']]]></default>
+    </key>
+
+    <key type="as" name="translate-from-clipboard-keybinding">
+        <default><![CDATA[['<Super><Shift>T']]]></default>
+    </key>
+
+    <key type="as" name="translate-from-selection-keybinding">
+        <default><![CDATA[['<Super><Alt>T']]]></default>
+    </key>
+
+    <key type="s" name="default-translator">
+	    <default>'Google.Translate'</default>
+    </key>
+
+    <key type="s" name="translators-prefs">
+	    <default>
+        '
+        {
+           "Google.Translate":{
+              "default_source":"en",
+              "default_target":"ru",
+              "last_source":"",
+              "last_target":"",
+              "remember_last_lang": false
+           },
+           "Yandex.Translate":{
+              "default_source":"ru",
+              "default_target":"fr",
+              "last_source":"",
+              "last_target":"",
+              "remember_last_lang": true
+           }
+        }
+        '
+        </default>
+    </key>
+
+    <key type="s" name="languages-stats">
+        <default>'{}'</default>
+    </key>
+
+    <key type="s" name="last-translator">
+        <default>''</default>
+    </key>
+
+    <key type="b" name="remember-last-translator">
+        <default>false</default>
+    </key>
+
+    <key type="b" name="enable-instant-translation">
+        <default>true</default>
+    </key>
+
+    <key type="b" name="enable-shortcuts">
+        <default>true</default>
+    </key>
+
+    <key type="b" name="show-most-used">
+        <default>true</default>
+    </key>
+
+    <key type="b" name="show-icon">
+        <default>true</default>
+    </key>
+
+    <key type="b" name="sync-entries-scrolling">
+        <default>false</default>
+    </key>
+
+    <key type="i" name="width-percents">
+        <default>80</default>
+    </key>
+
+    <key type="i" name="height-percents">
+        <default>60</default>
+    </key>
+
+    <key type="i" name="font-size">
+        <default>15</default>
+    </key>
+
+    <key type="b" name="enable-auto-speak">
+        <default>false</default>
+    </key>
+
+  </schema>
+</schemalist>
